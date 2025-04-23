@@ -1,0 +1,83 @@
+{
+    "HotelOptions": [
+        {
+            "HotelName": "Hotel_Mumbai1",
+            "HotelAddress": "Address_Mumbai1",
+            "Price": "Price1",
+            "HotelImageUrl": "ImageUrl1",
+            "GeoCoordinates": "GeoCoordinates1",
+            "Rating": "Rating1",
+            "Description": "Description1"
+        },
+        {
+            "HotelName": "Hotel_Mumbai2",
+            "HotelAddress": "Address_Mumbai2",
+            "Price": "Price2",
+            "HotelImageUrl": "ImageUrl2",
+            "GeoCoordinates": "GeoCoordinates2",
+            "Rating": "Rating2",
+            "Description": "Description2"
+        },
+        {
+            "HotelName": "Hotel_Mumbai3",
+            "HotelAddress": "Address_Mumbai3",
+            "Price": "Price3",
+            "HotelImageUrl": "ImageUrl3",
+            "GeoCoordinates": "GeoCoordinates3",
+            "Rating": "Rating3",
+            "Description": "Description3"
+        }
+    ],
+    "Itinerary": [
+        {
+            "Day": "Day1",
+            "Places": [
+                {
+                    "PlaceName": "Gateway of India",
+                    "PlaceDetails": "Iconic arch monument",
+                    "PlaceImageUrl": "ImageUrl_Gateway",
+                    "GeoCoordinates": "GeoCoordinates_Gateway",
+                    "TicketPricing": "Free",
+                    "Rating": "4.8",
+                    "TimeTravel": "2 hours",
+                    "BestTimeToVisit": "Morning"
+                },
+                {
+                    "PlaceName": "Chhatrapati Shivaji Maharaj Terminus",
+                    "PlaceDetails": "Historic train station",
+                    "PlaceImageUrl": "ImageUrl_CST",
+                    "GeoCoordinates": "GeoCoordinates_CST",
+                    "TicketPricing": "Free",
+                    "Rating": "4.6",
+                    "TimeTravel": "1.5 hours",
+                    "BestTimeToVisit": "Afternoon"
+                }
+            ]
+        },
+        {
+            "Day": "Day2",
+            "Places": [
+                {
+                    "PlaceName": "Marine Drive",
+                    "PlaceDetails": "Scenic promenade",
+                    "PlaceImageUrl": "ImageUrl_MarineDrive",
+                    "GeoCoordinates": "GeoCoordinates_MarineDrive",
+                    "TicketPricing": "Free",
+                    "Rating": "4.7",
+                    "TimeTravel": "2 hours",
+                    "BestTimeToVisit": "Evening"
+                },
+                {
+                    "PlaceName": "Dhobi Ghat",
+                    "PlaceDetails": "Open-air laundromat",
+                    "PlaceImageUrl": "ImageUrl_DhobiGhat",
+                    "GeoCoordinates": "GeoCoordinates_DhobiGhat",
+                    "TicketPricing": "Free",
+                    "Rating": "4.5",
+                    "TimeTravel": "1 hour",
+                    "BestTimeToVisit": "Morning"
+                }
+            ]
+        }
+    ]
+}
