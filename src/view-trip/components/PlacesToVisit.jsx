@@ -3,6 +3,7 @@ import PlaceCardItem from './PlaceCardItem';
 
   function PlacesToVisit({ trip }) {
   const itinerary = trip?.tripData?.itinerary;
+  console.log("itinery", itinerary);
 
   return (
     <div>

@@ -16,6 +16,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function Header() {
   const user = JSON.parse(localStorage.getItem("user"));
@@ -53,7 +54,9 @@ function Header() {
 
   return (
     <div className="p-4 shadow-sm flex justify-between items-center px-5">
+    <a href='/'>
       <img src="/logo.svg" />
+      </a>
       {user ? <div className="flex item-center gap-3">
       <a href="/create-trip">
         <Button variant="outline" className="rounded-full">+ Create Trip</Button>

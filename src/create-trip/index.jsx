@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { AI_PROMPT, SelectBudgetOptions, SelectTravelesList } from "@/constants/options";
 import { chatSession } from "@/service/AIModal";
-import React, { use, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import GooglePlacesAutocomplete from "react-google-places-autocomplete";
 import { toast } from "sonner";
 import {
@@ -84,7 +84,7 @@ function CreateTrip() {
     try {
       const result = await chatSession.sendMessage(FINAL_PROMPT);
       const responseText = result.response.text();
-      // console.log("AI Response:", responseText);
+      console.log("AI Response:", responseText);
       setLoading(false);
       SaveAITrip(responseText);
     } catch (err) {
@@ -115,6 +115,7 @@ function CreateTrip() {
         Accept: 'Application/json'
       }
   }).then((resp)=>{
+    console.log("Data is being checked");
     console.log(resp);
     localStorage.setItem('user', JSON.stringify(resp.data));
     setOpenDialog(false);
